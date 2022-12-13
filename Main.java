@@ -42,6 +42,11 @@ public class Main {
                 break;
             case "3":
                 running = false;
+                break;
+            default:
+                System.out.println("Please enter valid input")
+                WaitFor.waitForInteraction();
+                break;
 
         }
     }
