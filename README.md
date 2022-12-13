@@ -10,7 +10,7 @@ This is essentially a way to shortcut some of the repetitive work done when doin
 
 ## How To Use It
 
-To start off copy these files into your project, you will firstly want to adjust the Printer Java file and add your own user interface elements into the print line statements. You will also want to modify the `handleInput();` function in the `Main.java` class
+To start off copy the files from `template-files` into your project, you will firstly want to adjust the Printer Java file and add your own user interface elements into the print line statements. You will also want to modify the `handleInput();` function in the `Main.java` class
 
     private static void handleInput(String input) {
     switch(input){
